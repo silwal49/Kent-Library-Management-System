@@ -75,13 +75,10 @@ public class LibraryManagementSystem {
         }
         System.out.println(stars);
         System.out.println("\tWELCOME TO LIBRARY MANAGEMENT SYSTEM");
-        System.out.println("\n\tDeveloped by Group D: Team Null \n");
+        System.out.println("\n\tDeveloped by Group D: Team Barbie \n");
         System.out.println("\tMembers: ");
-        System.out.println("\t Santosh Silwal \t K241054");
-        System.out.println("\t Shacham Bhandari \t K241108");
-        System.out.println("\t Prasanta Kandel \t K230898");
-        System.out.println("\t Ansh Shrestha \t \t K240814");
-        System.out.println("\n \tOODP101 - Object Oriented Design and Programming");
+        
+        System.out.println("\n \tSENG - Software Engineering");
         System.out.println("\tAssessment 3 - Group Project");
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy \t HH:mm:ss");
         System.out.println("\tDate: " + LocalDateTime.now().format(dtf));
