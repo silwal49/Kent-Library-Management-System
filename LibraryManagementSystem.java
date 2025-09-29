@@ -61,11 +61,7 @@ public class LibraryManagementSystem {
         library.addBook(new Book("ISBN003", "Kent Australia IT Guide", "Kent Institute", "IT", 49.99));
         library.addBook(new Book("ISBN002", "Database Management", "Author C", "DBFN", 29.99));
 
-        //  some members
-        library.registerMember(new Member("k241054", "Santosh Silwal", "Regular"));
-        library.registerMember(new Member("k241108", "Shacham Bhandari", "Regular"));
-        library.registerMember(new Member("k230898", "Prasanta Kandel", "Regular"));
-        library.registerMember(new Member("k240814", "Ansh Shrestha", "Regular"));
+
     }
 
     private static void printHeader() {
